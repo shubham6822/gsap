@@ -4,9 +4,8 @@ import gsap from "gsap";
 const GsapTo = () => {
   useGSAP(() => {
     gsap.to("#blue-box", {
-      x: 250,
+      x: 1000,
       repeat: -1,
-      yoyo: true,
       duration: 1,
       ease: "elastic",
       rotation: 360,
