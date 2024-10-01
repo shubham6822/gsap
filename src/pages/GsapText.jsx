@@ -4,12 +4,12 @@ import gsap from "gsap";
 const GsapText = () => {
   useGSAP(() => {
     gsap.to("#text", {
-      opacity: 1,
+      opacity: 0,
       y: 0,
       ease: "power2.inOut",
     })
     gsap.fromTo('.para', {
-      opacity: 0,
+      opacity: 1,
       y: 10
     }, {
       opacity: 1,
